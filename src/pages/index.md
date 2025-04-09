@@ -12,7 +12,7 @@ hero:
       link: /introducao/quem-e-wesley
     - theme: alt
       text: Experiências
-      link: /introducao/experiencia-profissional
+      link: /introducao/experiencias
 
 features:
   - title: Feature A

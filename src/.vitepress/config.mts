@@ -51,5 +51,13 @@ function sidebar(): DefaultTheme.SidebarItem[] {
         { text: 'Experiências', link: '/experiencias/' },
       ]
     },
+    {
+      text: "Produções",
+      base: "/producoes",
+      items: [
+        { text: "Projetos", link: "/projetos/" },
+        { text: "Open Source", link: "/open-source/" },
+      ].sort((a, b) => a.text.localeCompare(b.text))
+    }
   ]
 } 
